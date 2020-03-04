@@ -11,7 +11,7 @@
     ],
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/logo.png",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
@@ -21,10 +21,16 @@
       "fallbackToCacheTimeout": 0
     },
     "assetBundlePatterns": [
-      "**/*"
+      "assets/*"
     ],
     "ios": {
-      "supportsTablet": true
-    }
+      "bundleIdentifier": "com.ABCsoft.Shopping",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "package": "com.ABCsoft.Shopping",
+      "versionCode": 1
+    },
+    "description": "Shopping App"
   }
 }
